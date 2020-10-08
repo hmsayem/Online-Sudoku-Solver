@@ -1,6 +1,6 @@
 # Online Sudoku Solver
 ## About
-This Python module can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from an online sudoku website [sudoku.game](https://https://sudoku.game/very-hard) and solves the sudoku automatically by interacting with the webpage.
+This Python application can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from an online sudoku website [sudoku.game](https:sudoku.game/very-hard) and solves the problem automatically by interacting with the webpage.
 
 ### Rules of Sudoku
 
@@ -8,7 +8,7 @@ You must fill the boxes of a 9x9 grid with numbers from 1 to 9 in a way that the
 
 ### How it works?
 
-It works with backtracking algorithm.Backtracking is simply reverting back to the previous step or solution as soon as we determine that our current solution cannot be continued into a complete one.
+It works with backtracking algorithm. Backtracking is simply reverting back to the previous step or solution as soon as we determine that our current solution cannot be continued into a complete one.
 
 #### Algorithm:
 
