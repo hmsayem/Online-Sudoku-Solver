@@ -3,11 +3,14 @@
 This Python module can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from an online sudoku website [sudoku.game](https://https://sudoku.game/very-hard) and solves the sudoku automatically by interacting with the webpage.
 
 ### Rules of Sudoku
+
 You must fill the boxes of a 9x9 grid with numbers from 1 to 9 in a way that there are no recurring numbers in each row, column, and 3x3 block.
-### How it works ?
+
+### How it works?
 
 It works with backtracking algorithm.Backtracking is simply reverting back to the previous step or solution as soon as we determine that our current solution cannot be continued into a complete one.
-#### Algorithm
+
+#### Algorithm:
 
 Starting with an incomplete board:
 
@@ -27,7 +30,7 @@ The automation part is divided into two sections: <br>
 
 The automation has been done by using the <code> PyAutoGUI </code> module.
 
-### How to Use
+### How to use?
 #### Clone project & Install Requirements
 > Make sure you have already installed python3 and git.
 ```
