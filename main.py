@@ -31,7 +31,7 @@ def fill_cell(value, pos):
 
 def fill_board():
     for i in range(1, 10):
-        for pos in pg.locateAllOnScreen(str(i) + '.png', confidence=.95):
+        for pos in pg.locateAllOnScreen('Images\\' + str(i) + '.png', confidence=.95):
             pg.click(pg.center(pos))
             fill_cell(i, pg.center(pos))
 
