@@ -1,6 +1,6 @@
 # Online Sudoku Solver
 ## About
-This Python application can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from a website [sudoku.game](https:sudoku.game/very-hard) and solves the puzzle automatically interacting with the webpage.
+This Python application can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from a website [sudoku.game](https://sudoku.game/very-hard) and solves the puzzle automatically interacting with the webpage.
 
 ### Rules of Sudoku
 

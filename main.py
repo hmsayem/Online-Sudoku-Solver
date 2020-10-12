@@ -2,13 +2,13 @@ import pyautogui as pg
 import time
 import copy
 
-top_left_x = 486
-top_left_y = 223
-bottom_right_x = 884
-bottom_right_y = 623
+top_left_x = 514
+top_left_y = 219
+bottom_right_x = 854
+bottom_right_y = 563
 box_width = (bottom_right_x - top_left_x) / 8
 box_height = (bottom_right_y - top_left_y) / 8
-time.sleep(2)
+
 
 grid = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -31,7 +31,9 @@ def fill_cell(value, pos):
 
 def fill_board():
     for i in range(1, 10):
-        for pos in pg.locateAllOnScreen('Images\\' + str(i) + '.png', confidence=.95):
+        image_file = "Images\\" + str(i) + '.png'
+        print(image_file)
+        for pos in pg.locateAllOnScreen(image_file, confidence=.7):
             pg.click(pg.center(pos))
             fill_cell(i, pg.center(pos))
 
@@ -104,7 +106,7 @@ def run():
                 draw(grid[i][j], j, i)
 
 
-time.sleep(1)
+time.sleep(3)
 fill_board()
 grid_unsolved = copy.deepcopy(grid)
 solver()
