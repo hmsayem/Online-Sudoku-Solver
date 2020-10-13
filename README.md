@@ -1,16 +1,12 @@
 # Online Sudoku Solver
 ## About
-This Python application can solve even 'hard' sudoku problems almost instantly. It reads any 9x9 Sudoku-puzzle from a website [sudoku.game](https://sudoku.game/very-hard) and solves the puzzle automatically interacting with the webpage.
+A web application to visualize sudoku solving using backtracking. It reads any 9x9 Sudoku-puzzle from a website [sudoku.com](https://https://sudoku.com) and solves the puzzle automatically interacting with the webpage.
 
 ### Rules of Sudoku
 
 You must fill the boxes of a 9x9 grid with numbers from 1 to 9 in a way that there are no recurring numbers in each row, column, and 3x3 block.
 
-### How it works?
-
-It works with backtracking algorithm. Backtracking is simply reverting back to the previous step or solution as soon as we determine that our current solution cannot be continued into a complete one.
-
-#### Algorithm:
+### Algorithm:
 
 Starting with an incomplete board:
 
@@ -26,7 +22,7 @@ Starting with an incomplete board:
 ### From solution to automation
 The automation part is divided into two sections: <br>
 * Locating the numbers on a sudoku grid. This way we can solve any sudoku without having to fill the sudoku variable manually.
-* Filling the empty cells with numbers. <br>
+* Filling the empty cells with numbers while solving the puzzle. <br>
 
 The automation has been done using the <code> PyAutoGUI </code> module.
 
