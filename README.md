@@ -1,6 +1,6 @@
 # Online Sudoku Solver
 ## About
-A web application to visualize sudoku solving using backtracking. It reads any 9x9 Sudoku-puzzle from a website [sudoku.com](https://https://sudoku.com) and solves the puzzle automatically interacting with the webpage.
+This Python application can solve even 'hard' sudoku problems almost instantly using backtracking algorithm. It reads any 9x9 Sudoku-puzzle from [sudoku.com](https://https://sudoku.com) and solves the puzzle automatically interacting with the webpage. This application also visualizes the backtracking algorithm while solving the puzzle.
 
 ### Rules of Sudoku
 
