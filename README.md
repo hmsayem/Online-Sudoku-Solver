@@ -2,6 +2,10 @@
 ## About
 This Python application can solve even 'hard' sudoku problems almost instantly using backtracking algorithm. It reads any 9x9 Sudoku-puzzle from [sudoku.com](https://https://sudoku.com) and solves the puzzle automatically interacting with the webpage. This application also visualizes the backtracking algorithm while solving the puzzle.
 
+### Demo
+
+<img src="media/images/demo.gif">
+
 ### Rules of Sudoku
 
 You must fill the boxes of a 9x9 grid with numbers from 1 to 9 in a way that there are no recurring numbers in each row, column, and 3x3 block.
