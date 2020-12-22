@@ -4,7 +4,7 @@ This Python application can solve even 'hard' sudoku problems almost instantly u
 
 ### Demo
 
-<img src="Images/demo.gif">
+<img src="Images/demo.gif" style="width: 80%;">
 
 ### Rules of Sudoku
 
